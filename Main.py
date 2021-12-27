@@ -17,7 +17,7 @@ if opening == str(1):
         bi = bin(byte)
         bys = str(bys)+"ob"+str(bi[2:])
         by.append(bi[2:])
-#CosmicCrow
+
     Cosmic = bytearray(code, "utf8")
     bya = []
     byas = ""
@@ -29,7 +29,7 @@ if opening == str(1):
     count = 0
     l = 0
     ending = ""
-#Cosmic Crow
+
     for num in by:
         lettercount = 0
 
@@ -49,7 +49,7 @@ if opening == str(1):
             l = l+1
         count = count +1
         ending = ending + " "
-#MadeByCosmicCrow
+
     print(f"Endoded message:\n{ending}")
     print(f"Key: {code}")
 else:
